@@ -1,0 +1,19 @@
+name: AstroMobkill
+version: "1.0.0"
+main: com.astro.Mobkill.AstroMobkill
+api-version: "1.21"
+description: Gives money to players when killing mobs.
+author: Astro
+
+depend:
+  - Vault
+
+softdepend:
+  - PlaceholderAPI
+  - Essentials
+
+commands:
+  astromobkill:
+    description: AstroMobkill main command.
+    usage: /astromobkill <reload>
+    permission: astromobkill.admin

@@ -1,0 +1,7 @@
+com\astro\Mobkill\SpawnerTagListener.class
+com\astro\Mobkill\VaultHook.class
+com\astro\Mobkill\MobKillPlaceholder.class
+com\astro\Mobkill\AstroMobkillCommand.class
+com\astro\Mobkill\AstroMobkill.class
+com\astro\Mobkill\MobKillListener.class
+com\astro\Mobkill\ConfigManager.class

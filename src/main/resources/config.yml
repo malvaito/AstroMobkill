@@ -1,0 +1,360 @@
+# =============================================
+#         AstroMobkill - Configuración
+# =============================================
+
+settings:
+  # ¿Los mobs de spawners dan dinero?
+  spawner-mobs-give-money: false
+
+  # ¿Mostrar mensaje al recibir dinero?
+  kill-message: true
+
+  # Formato del mensaje (MiniMessage).
+  # Placeholders disponibles: {amount}, {mob}
+  kill-message-format: "<green><bold>+${amount}</bold></green> <gray>por matar</gray> <yellow>{mob}</yellow>"
+
+  # Formato cuando el mob NO da dinero (vacío = sin mensaje)
+  no-reward-message: ""
+
+  # Redondear el dinero a N decimales (0 = entero)
+  decimal-places: 2
+
+  # Multiplicador global de dinero (útil para eventos, etc.)
+  global-multiplier: 1.0
+
+# =============================================
+#    Configuración por mob
+#    min: mínimo dinero que puede dar
+#    max: máximo dinero que puede dar
+#    enabled: true/false para habilitar/deshabilitar
+# =============================================
+mobs:
+
+  # --- Hostiles ---
+  ZOMBIE:
+    enabled: true
+    min: 5.0
+    max: 15.0
+
+  SKELETON:
+    enabled: true
+    min: 5.0
+    max: 15.0
+
+  CREEPER:
+    enabled: true
+    min: 10.0
+    max: 25.0
+
+  SPIDER:
+    enabled: true
+    min: 3.0
+    max: 10.0
+
+  CAVE_SPIDER:
+    enabled: true
+    min: 5.0
+    max: 12.0
+
+  WITCH:
+    enabled: true
+    min: 15.0
+    max: 40.0
+
+  ENDERMAN:
+    enabled: true
+    min: 20.0
+    max: 50.0
+
+  BLAZE:
+    enabled: true
+    min: 20.0
+    max: 45.0
+
+  GHAST:
+    enabled: true
+    min: 30.0
+    max: 70.0
+
+  WITHER_SKELETON:
+    enabled: true
+    min: 25.0
+    max: 60.0
+
+  ZOMBIE_PIGMAN:
+    enabled: true
+    min: 10.0
+    max: 30.0
+
+  PIGLIN:
+    enabled: true
+    min: 10.0
+    max: 25.0
+
+  PIGLIN_BRUTE:
+    enabled: true
+    min: 30.0
+    max: 70.0
+
+  HOGLIN:
+    enabled: true
+    min: 25.0
+    max: 55.0
+
+  ZOGLIN:
+    enabled: true
+    min: 25.0
+    max: 55.0
+
+  STRIDER:
+    enabled: false
+    min: 5.0
+    max: 15.0
+
+  PHANTOM:
+    enabled: true
+    min: 10.0
+    max: 30.0
+
+  DROWNED:
+    enabled: true
+    min: 8.0
+    max: 20.0
+
+  HUSK:
+    enabled: true
+    min: 6.0
+    max: 18.0
+
+  STRAY:
+    enabled: true
+    min: 6.0
+    max: 18.0
+
+  PILLAGER:
+    enabled: true
+    min: 15.0
+    max: 35.0
+
+  VINDICATOR:
+    enabled: true
+    min: 20.0
+    max: 45.0
+
+  EVOKER:
+    enabled: true
+    min: 40.0
+    max: 90.0
+
+  RAVAGER:
+    enabled: true
+    min: 50.0
+    max: 120.0
+
+  VEX:
+    enabled: true
+    min: 10.0
+    max: 25.0
+
+  SILVERFISH:
+    enabled: true
+    min: 2.0
+    max: 6.0
+
+  ENDERMITE:
+    enabled: true
+    min: 2.0
+    max: 6.0
+
+  GUARDIAN:
+    enabled: true
+    min: 20.0
+    max: 45.0
+
+  ELDER_GUARDIAN:
+    enabled: true
+    min: 100.0
+    max: 250.0
+
+  SHULKER:
+    enabled: true
+    min: 30.0
+    max: 70.0
+
+  # --- Bosses ---
+  WITHER:
+    enabled: true
+    min: 500.0
+    max: 1000.0
+
+  ENDER_DRAGON:
+    enabled: true
+    min: 1000.0
+    max: 2500.0
+
+  # --- Neutrales ---
+  WOLF:
+    enabled: false
+    min: 2.0
+    max: 5.0
+
+  BEE:
+    enabled: false
+    min: 1.0
+    max: 3.0
+
+  POLAR_BEAR:
+    enabled: false
+    min: 5.0
+    max: 15.0
+
+  LLAMA:
+    enabled: false
+    min: 2.0
+    max: 8.0
+
+  IRON_GOLEM:
+    enabled: true
+    min: 10.0
+    max: 30.0
+
+  # --- Pasivos ---
+  COW:
+    enabled: false
+    min: 1.0
+    max: 5.0
+
+  PIG:
+    enabled: false
+    min: 1.0
+    max: 5.0
+
+  SHEEP:
+    enabled: false
+    min: 1.0
+    max: 5.0
+
+  CHICKEN:
+    enabled: false
+    min: 0.5
+    max: 2.0
+
+  MOOSHROOM:
+    enabled: false
+    min: 2.0
+    max: 8.0
+
+  RABBIT:
+    enabled: false
+    min: 0.5
+    max: 2.0
+
+  HORSE:
+    enabled: false
+    min: 2.0
+    max: 8.0
+
+  DONKEY:
+    enabled: false
+    min: 1.0
+    max: 5.0
+
+  MULE:
+    enabled: false
+    min: 1.0
+    max: 5.0
+
+  TURTLE:
+    enabled: false
+    min: 1.0
+    max: 4.0
+
+  FOX:
+    enabled: false
+    min: 1.0
+    max: 4.0
+
+  PANDA:
+    enabled: false
+    min: 2.0
+    max: 6.0
+
+  OCELOT:
+    enabled: false
+    min: 1.0
+    max: 4.0
+
+  CAT:
+    enabled: false
+    min: 0.5
+    max: 2.0
+
+  PARROT:
+    enabled: false
+    min: 1.0
+    max: 3.0
+
+  BAT:
+    enabled: false
+    min: 0.1
+    max: 0.5
+
+  COD:
+    enabled: false
+    min: 0.5
+    max: 2.0
+
+  SALMON:
+    enabled: false
+    min: 0.5
+    max: 2.0
+
+  SQUID:
+    enabled: false
+    min: 1.0
+    max: 3.0
+
+  GLOW_SQUID:
+    enabled: false
+    min: 1.0
+    max: 4.0
+
+  DOLPHIN:
+    enabled: false
+    min: 2.0
+    max: 6.0
+
+  AXOLOTL:
+    enabled: false
+    min: 1.0
+    max: 4.0
+
+  GOAT:
+    enabled: false
+    min: 1.0
+    max: 4.0
+
+  FROG:
+    enabled: false
+    min: 0.5
+    max: 2.0
+
+  TADPOLE:
+    enabled: false
+    min: 0.1
+    max: 0.5
+
+  SNIFFER:
+    enabled: false
+    min: 5.0
+    max: 15.0
+
+  CAMEL:
+    enabled: false
+    min: 2.0
+    max: 8.0
+
+  ARMADILLO:
+    enabled: false
+    min: 1.0
+    max: 4.0
